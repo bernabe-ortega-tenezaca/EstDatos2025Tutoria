@@ -13,6 +13,13 @@ string[] estudiantes = new string[5];
 
 
 
+//Recorrido e impresión de los datos
+for (int i = 0; i < 5; i++)
+{
+    System.Console.WriteLine("El elemento " + i + " es " + estudiantes[i]);
+}
+
+
 
 
 
