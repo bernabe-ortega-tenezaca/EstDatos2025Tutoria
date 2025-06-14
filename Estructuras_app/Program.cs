@@ -1,6 +1,4 @@
-﻿using System.Net.WebSockets;
-
-Console.WriteLine("Universidad Estatal Amazónica");
+﻿Console.WriteLine("Universidad Estatal Amazónica");
 Console.WriteLine("=============================");
 System.Console.WriteLine();
 
@@ -10,8 +8,8 @@ System.Console.WriteLine("Clase encuentro - Arrays");
 //Definición de un array
 string[] estudiantes = new string[5];
 
-
-
+estudiantes[0] = "Maria";
+estudiantes[4] = "Paul";
 
 //Recorrido e impresión de los datos
 for (int i = 0; i < 5; i++)
