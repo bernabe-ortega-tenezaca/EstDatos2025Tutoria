@@ -2,27 +2,29 @@
 Console.WriteLine("=============================");
 System.Console.WriteLine();
 
-//usar cw + TAB
-System.Console.WriteLine("Clase encuentro - Arrays");
 
-//Definición de un array
-string[] estudiantes = new string[5];
 
-estudiantes[0] = "Maria";
-estudiantes[4] = "Paul";
+// //usar cw + TAB
+// System.Console.WriteLine("Clase encuentro - Arrays");
 
-//Recorrido e impresión de los datos
-for (int i = 0; i < 5; i++)
-{
-    System.Console.WriteLine("El elemento " + i + " es " + estudiantes[i]);
-}
+// //Definición de un array
+// string[] estudiantes = new string[5];
 
-//ejemplo array inicializado directamente
-int[] numeros = { 10, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50 };
-for (int i = 0; i < numeros.Length; i++)
-{
-   System.Console.WriteLine(numeros[i]);
-}
+// estudiantes[0] = "Maria";
+// estudiantes[4] = "Paul";
+
+// //Recorrido e impresión de los datos
+// for (int i = 0; i < 5; i++)
+// {
+//     System.Console.WriteLine("El elemento " + i + " es " + estudiantes[i]);
+// }
+
+// //ejemplo array inicializado directamente
+// int[] numeros = { 10, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50, 20, 30, 40, 50 };
+// for (int i = 0; i < numeros.Length; i++)
+// {
+//    System.Console.WriteLine(numeros[i]);
+// }
 
 
 
