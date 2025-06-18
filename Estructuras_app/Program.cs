@@ -2,7 +2,12 @@
 Console.WriteLine("=============================");
 System.Console.WriteLine();
 
+string[] telf = new string[2];
+telf[0] = "098787877";
+telf[1] = "098989898";
 
+clsEstudiante estudiante = new clsEstudiante();
+clsEstudiante estudiante1 = new clsEstudiante("123", "Juana", telf);
 
 // //usar cw + TAB
 // System.Console.WriteLine("Clase encuentro - Arrays");
