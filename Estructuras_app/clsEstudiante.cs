@@ -11,5 +11,10 @@ public class clsEstudiante
         this.codigo = _codigo;
         nombre = _nombre;
         telefono = _telefonos;
-    }    
+    }
+
+    public string getNombre()
+    {
+        return nombre;
+    }  
 }

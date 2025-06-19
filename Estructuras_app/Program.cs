@@ -2,12 +2,30 @@
 Console.WriteLine("=============================");
 System.Console.WriteLine();
 
-string[] telf = new string[2];
-telf[0] = "098787877";
-telf[1] = "098989898";
+System.Console.WriteLine("Listado de estudiantes");
 
-clsEstudiante estudiante = new clsEstudiante();
-clsEstudiante estudiante1 = new clsEstudiante("123", "Juana", telf);
+clsEstudiante[] estudiantes = new clsEstudiante[10];
+
+
+
+
+
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine(estudiantes[i].getNombre());
+}
+
+
+
+
+
+
+// string[] telf = new string[2];
+// telf[0] = "098787877";
+// telf[1] = "098989898";
+
+// clsEstudiante estudiante = new clsEstudiante();
+// clsEstudiante estudiante1 = new clsEstudiante("123", "Juana", telf);
 
 // //usar cw + TAB
 // System.Console.WriteLine("Clase encuentro - Arrays");
