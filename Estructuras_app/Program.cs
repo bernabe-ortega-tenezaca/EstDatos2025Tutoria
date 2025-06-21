@@ -21,7 +21,7 @@ mascotas[2] = vaca;
 bool continuar = true;
 int i = 0;
 while (continuar)
-{   
+{
     if (mascotas[i] != null) //boolean
     {
         Console.WriteLine("Nombre: " + mascotas[i].Nombre + " Edad: " + mascotas[i].Edad);
@@ -32,6 +32,36 @@ while (continuar)
         continuar = false;
     }
 }
+
+continuar = true;
+bool encontrado = false;
+
+string consulta = "Cliff";
+while (continuar)
+{
+    if (mascotas[i] != null) //boolean
+    {
+        if (mascotas[i].Nombre == consulta)
+        {
+            encontrado = true;
+        }
+        i++;
+    }
+    else
+    {
+        continuar = false;
+    }
+}
+
+if (encontrado == true)
+{
+    System.Console.WriteLine("El registro ha sido encontrado");
+}
+else
+{
+    System.Console.WriteLine("El registro no existe");
+}
+
 
 //Recorrido del array
 // for (int i = 0; i < max; i++)
