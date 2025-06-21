@@ -16,6 +16,8 @@ mascotas[1] = perro;
 
 
 
+
+
 // Animal gato = new Animal("Cliff", 23, 3);
 
 // Console.WriteLine(gato.Edad);
