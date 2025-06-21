@@ -5,6 +5,11 @@ Console.WriteLine();
 System.Console.WriteLine("Lista mascotas");
 System.Console.WriteLine("==============");
 
+Animal gato = new Animal("Cliff");
+
+gato.
+
+
 // System.Console.WriteLine("Listado de estudiantes");
 
 // clsEstudiante[] estudiantes = new clsEstudiante[10];
