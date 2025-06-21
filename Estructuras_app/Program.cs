@@ -5,10 +5,11 @@ Console.WriteLine();
 System.Console.WriteLine("Lista mascotas");
 System.Console.WriteLine("==============");
 
-Animal gato = new Animal("Cliff");
+Animal gato = new Animal("Cliff", 23, 3);
 
-gato.
-
+Console.WriteLine(gato.Edad);
+Console.WriteLine("la edad del gato es: " + gato.Edad);
+Console.WriteLine($"la edad del gato es : {gato.Edad} y el nombre {gato.Nombre}");
 
 // System.Console.WriteLine("Listado de estudiantes");
 
