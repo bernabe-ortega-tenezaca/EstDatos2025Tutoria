@@ -24,7 +24,7 @@ while (continuar)
 {   
     if (mascotas[i] != null) //boolean
     {
-        Console.WriteLine(mascotas[i].Nombre);
+        Console.WriteLine("Nombre: " + mascotas[i].Nombre + " Edad: " + mascotas[i].Edad);
         i++;
     }
     else
