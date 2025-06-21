@@ -17,12 +17,16 @@ mascotas[0] = gato;
 mascotas[1] = perro;
 mascotas[2] = vaca;
 
+
 //Recorrido del array
 // for (int i = 0; i < max; i++)
 // {
 //     System.Console.WriteLine(mascotas[i].Nombre);
 // }
-
+// foreach (var item in mascotas)
+// {
+//     System.Console.WriteLine(item.Nombre);
+// }
 
 
 
