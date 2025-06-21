@@ -1,19 +1,22 @@
 ﻿Console.WriteLine("Universidad Estatal Amazónica");
 Console.WriteLine("=============================");
-System.Console.WriteLine();
+Console.WriteLine();
 
-System.Console.WriteLine("Listado de estudiantes");
+System.Console.WriteLine("Lista mascotas");
+System.Console.WriteLine("==============");
 
-clsEstudiante[] estudiantes = new clsEstudiante[10];
+// System.Console.WriteLine("Listado de estudiantes");
+
+// clsEstudiante[] estudiantes = new clsEstudiante[10];
 
 
 
 
 
-for (int i = 0; i < 10; i++)
-{
-    Console.WriteLine(estudiantes[i].getNombre());
-}
+// for (int i = 0; i < 10; i++)
+// {
+//     Console.WriteLine(estudiantes[i].getNombre());
+// }
 
 
 
