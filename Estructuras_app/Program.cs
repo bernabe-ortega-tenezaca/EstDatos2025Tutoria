@@ -17,6 +17,21 @@ mascotas[0] = gato;
 mascotas[1] = perro;
 mascotas[2] = vaca;
 
+//imprimir el vector
+bool continuar = true;
+int i = 0;
+while (continuar)
+{   
+    if (mascotas[i] != null) //boolean
+    {
+        Console.WriteLine(mascotas[i].Nombre);
+        i++;
+    }
+    else
+    {
+        continuar = false;
+    }
+}
 
 //Recorrido del array
 // for (int i = 0; i < max; i++)
