@@ -5,14 +5,23 @@ Console.WriteLine();
 System.Console.WriteLine("Lista mascotas");
 System.Console.WriteLine("==============");
 
-Animal[] mascotas = new Animal[100];
+int max = 10;
+
+Animal[] mascotas = new Animal[max];
 
 Animal gato = new Animal("Cliff", 23, 2);
 Animal perro = new Animal("Firu", 35, 3);
+Animal vaca = new Animal("Lechera", 2.5, 4);
 
 mascotas[0] = gato;
 mascotas[1] = perro;
+mascotas[2] = vaca;
 
+//Recorrido del array
+// for (int i = 0; i < max; i++)
+// {
+//     System.Console.WriteLine(mascotas[i].Nombre);
+// }
 
 
 
