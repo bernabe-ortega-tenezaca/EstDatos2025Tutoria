@@ -37,11 +37,12 @@ continuar = true;
 bool encontrado = false;
 
 string consulta = "Cliff";
+i = 0;
 while (continuar)
 {
     if (mascotas[i] != null) //boolean
     {
-        if (mascotas[i].Nombre == consulta)
+        if (string.Compare(mascotas[i].Nombre,consulta) > 0)
         {
             encontrado = true;
         }
@@ -53,7 +54,8 @@ while (continuar)
     }
 }
 
-if (encontrado == true)
+
+if (encontrado)
 {
     System.Console.WriteLine("El registro ha sido encontrado");
 }

@@ -4,7 +4,7 @@ public class clsEstudiante
     private string nombre;
     private string[] telefono;
 
-    public clsEstudiante() { }
+    //public clsEstudiante() { }
 
     public clsEstudiante(string _codigo, string _nombre, string[] _telefonos)
     {
