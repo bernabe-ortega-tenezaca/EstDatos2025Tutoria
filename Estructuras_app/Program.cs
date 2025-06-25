@@ -14,8 +14,9 @@ registro.IngresoNuevaMascota(vaca, 2);
 
 registro.imprimirMascotas();
 
-registro.buscar("Cliffo");
-
+Console.WriteLine("Ingrese el nombre de la mascota a buscar");
+registro.buscar(Console.ReadLine());
+//registro.buscar("Fir");
 
 // int max = 10;
 

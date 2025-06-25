@@ -37,12 +37,16 @@ public class RegistroAnimal
         }
     }
 
+/// <summary>
+/// Método buscar: Busca un nombre de mascota en el registro
+/// </summary>
+/// <param name="nombreMascota">Ingrese el nombre a buscar</param>
     public void buscar(string nombreMascota)
     {
         Console.WriteLine();
         Console.WriteLine("Búsqueda de mascota");
         System.Console.WriteLine("===========================");
-        if(encontrar(nombreMascota))
+        if (encontrar(nombreMascota))
         {
             Console.WriteLine("El registro ha sido encontrado");
         }
@@ -52,6 +56,12 @@ public class RegistroAnimal
         }
     }
 
+
+/// <summary>
+/// Propiedad privada para busca un valor
+/// </summary>
+/// <param name="nombre">String nombre para buscar</param>
+/// <returns>true o false</returns>
     private bool encontrar(string nombre)
     {
         bool encontrado = false;
