@@ -2,100 +2,98 @@
 Console.WriteLine("=============================");
 Console.WriteLine();
 
-System.Console.WriteLine("Lista mascotas");
-System.Console.WriteLine("==============");
 
-int max = 10;
+// int max = 10;
 
-Animal[] mascotas = new Animal[max];
+// Animal[] mascotas = new Animal[max];
 
-Animal gato = new Animal("Cliff", 23, 2);
-Animal perro = new Animal("Firu", 35, 3);
-Animal vaca = new Animal("Lechera", 2.5, 4);
+// Animal gato = new Animal("Cliff", 23, 2);
+// Animal perro = new Animal("Firu", 35, 3);
+// Animal vaca = new Animal("Lechera", 2.5, 4);
 
-mascotas[0] = gato;
-mascotas[1] = perro;
-mascotas[2] = vaca;
+// mascotas[0] = gato;
+// mascotas[1] = perro;
+// mascotas[2] = vaca;
 
-//imprimir el vector
-bool continuar = true;
-int i = 0;
-while (continuar)
-{
-    if (mascotas[i] != null) //boolean
-    {
-        Console.WriteLine("Nombre: " + mascotas[i].Nombre + " Edad: " + mascotas[i].Edad);
-        i++;
-    }
-    else
-    {
-        continuar = false;
-    }
-}
-
-continuar = true;
-bool encontrado = false;
-
-string consulta = "Firulais";
-i = 0;
-while (continuar)
-{
-    if (mascotas[i] != null) //boolean
-    {
-        if (string.Compare(mascotas[i].Nombre,consulta) > 0)
-        {
-            encontrado = true;
-        }
-        i++;
-    }
-    else
-    {
-        continuar = false;
-    }
-}
-
-
-if (encontrado)
-{
-    System.Console.WriteLine("El registro ha sido encontrado");
-}
-else
-{
-    System.Console.WriteLine("El registro no existe");
-}
-
-
-//Recorrido del array
-// for (int i = 0; i < max; i++)
+// //imprimir el vector
+// bool continuar = true;
+// int i = 0;
+// while (continuar)
 // {
-//     System.Console.WriteLine(mascotas[i].Nombre);
+//     if (mascotas[i] != null) //boolean
+//     {
+//         Console.WriteLine("Nombre: " + mascotas[i].Nombre + " Edad: " + mascotas[i].Edad);
+//         i++;
+//     }
+//     else
+//     {
+//         continuar = false;
+//     }
 // }
-// foreach (var item in mascotas)
+
+// continuar = true;
+// bool encontrado = false;
+
+// string consulta = "Firulais";
+// i = 0;
+// while (continuar)
 // {
-//     System.Console.WriteLine(item.Nombre);
+//     if (mascotas[i] != null) //boolean
+//     {
+//         if (string.Compare(mascotas[i].Nombre,consulta) > 0)
+//         {
+//             encontrado = true;
+//         }
+//         i++;
+//     }
+//     else
+//     {
+//         continuar = false;
+//     }
 // }
 
 
-
-
-// Animal gato = new Animal("Cliff", 23, 3);
-
-// Console.WriteLine(gato.Edad);
-// Console.WriteLine("la edad del gato es: " + gato.Edad);
-// Console.WriteLine($"la edad del gato es : {gato.Edad} y el nombre {gato.Nombre}");
-
-// System.Console.WriteLine("Listado de estudiantes");
-
-// clsEstudiante[] estudiantes = new clsEstudiante[10];
-
-
-
-
-
-// for (int i = 0; i < 10; i++)
+// if (encontrado)
 // {
-//     Console.WriteLine(estudiantes[i].getNombre());
+//     System.Console.WriteLine("El registro ha sido encontrado");
 // }
+// else
+// {
+//     System.Console.WriteLine("El registro no existe");
+// }
+
+
+// //Recorrido del array
+// // for (int i = 0; i < max; i++)
+// // {
+// //     System.Console.WriteLine(mascotas[i].Nombre);
+// // }
+// // foreach (var item in mascotas)
+// // {
+// //     System.Console.WriteLine(item.Nombre);
+// // }
+
+
+
+
+// // Animal gato = new Animal("Cliff", 23, 3);
+
+// // Console.WriteLine(gato.Edad);
+// // Console.WriteLine("la edad del gato es: " + gato.Edad);
+// // Console.WriteLine($"la edad del gato es : {gato.Edad} y el nombre {gato.Nombre}");
+
+// // System.Console.WriteLine("Listado de estudiantes");
+
+// // clsEstudiante[] estudiantes = new clsEstudiante[10];
+
+
+
+
+
+// // for (int i = 0; i < 10; i++)
+// // {
+// //     Console.WriteLine(estudiantes[i].getNombre());
+// // }
 
 
 
