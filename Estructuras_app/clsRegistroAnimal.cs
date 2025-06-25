@@ -11,7 +11,7 @@ public class RegistroAnimal
         _mascotas = new Animal[MaximoMascotas];
     }
 
-    public void setNuevoAnimal(Animal _mascota, int posicion)
+    public void IngresoNuevaMascota(Animal _mascota, int posicion)
     {
         _mascotas[posicion] = _mascota;
     }

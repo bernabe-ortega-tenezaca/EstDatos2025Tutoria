@@ -2,14 +2,24 @@
 Console.WriteLine("=============================");
 Console.WriteLine();
 
+RegistroAnimal registro = new RegistroAnimal(10);
+
+Animal gato = new Animal("Cliff", 23, 2);
+Animal perro = new Animal("Firu", 35, 3);
+Animal vaca = new Animal("Lechera", 2.5, 4);
+
+registro.IngresoNuevaMascota(gato, 0);
+registro.IngresoNuevaMascota(perro, 1);
+registro.IngresoNuevaMascota(vaca, 2);
+
+registro.imprimirMascotas();
+
+
 
 // int max = 10;
 
 // Animal[] mascotas = new Animal[max];
 
-// Animal gato = new Animal("Cliff", 23, 2);
-// Animal perro = new Animal("Firu", 35, 3);
-// Animal vaca = new Animal("Lechera", 2.5, 4);
 
 // mascotas[0] = gato;
 // mascotas[1] = perro;
