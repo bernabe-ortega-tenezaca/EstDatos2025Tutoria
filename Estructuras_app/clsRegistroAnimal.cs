@@ -19,19 +19,21 @@ public class RegistroAnimal
     public void imprimirMascotas()
     {
         bool continuar = true; 
-        System.Console.WriteLine("Listado de mascotas registradas");
+        Console.WriteLine("Listado de mascotas registradas");
+
         for (int i = 0; i < _mascotas.Length; i++)
         {
-            while (continuar == true)
-            {
-                if (_mascotas[i].Nombre != null)
+            //while (continuar == true)
+            //{
+                if (_mascotas[i] != null)
                 {
                     Console.WriteLine("Mascota " + _mascotas[i].Nombre);
                 }
-                continuar = false;
-                break;
-
-            }
+            //     else
+            //     {
+            //         continuar = false;
+            //     }
+            // }
         }
     }
 }
