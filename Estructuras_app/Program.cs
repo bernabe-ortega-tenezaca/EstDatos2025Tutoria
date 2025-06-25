@@ -14,6 +14,7 @@ registro.IngresoNuevaMascota(vaca, 2);
 
 registro.imprimirMascotas();
 
+registro.buscar("Cliffo");
 
 
 // int max = 10;
