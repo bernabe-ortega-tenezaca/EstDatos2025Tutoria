@@ -10,7 +10,7 @@ List<string> nombres = ["Ana", "Luis", "Rosita"];
 //imprimir una lista
 foreach (string nombre in nombres)
 {
-    System.Console.WriteLine(nombre);
+    System.Console.WriteLine(nombre.ToUpper());
 }
 
 
