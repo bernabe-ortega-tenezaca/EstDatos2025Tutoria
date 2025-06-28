@@ -12,7 +12,11 @@ nombres.Add("Romina");
 nombres.Add("Willy");
 nombres.Add("Ana");
 
+//Eliminar elemento de la lista
 nombres.Remove("Ana");
+
+//Ordenar una lista
+nombres.Sort();
 
 //imprimir una lista
 foreach (string nombre in nombres)
