@@ -4,7 +4,14 @@ Console.WriteLine();
 Console.WriteLine("  Listas");
 Console.WriteLine("=============================");
 
+//crear una colección de strings llamada nombres
 List<string> nombres = ["Ana", "Luis", "Rosita"];
+
+//imprimir una lista
+foreach (string nombre in nombres)
+{
+    System.Console.WriteLine(nombre);
+}
 
 
 
