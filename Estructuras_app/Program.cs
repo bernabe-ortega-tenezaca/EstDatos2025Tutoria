@@ -10,7 +10,9 @@ List<string> nombres = ["Ana", "Luis", "Rosita"];
 //Añadir elementos a la lista
 nombres.Add("Romina");
 nombres.Add("Willy");
+nombres.Add("Ana");
 
+nombres.Remove("Ana");
 
 //imprimir una lista
 foreach (string nombre in nombres)
