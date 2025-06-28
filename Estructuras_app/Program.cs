@@ -1,21 +1,36 @@
 ﻿Console.WriteLine("Universidad Estatal Amazónica");
 Console.WriteLine("=============================");
 Console.WriteLine();
+Console.WriteLine("  Listas");
+Console.WriteLine("=============================");
 
-RegistroAnimal registro = new RegistroAnimal(10);
+List<string> nombres = ["Ana", "Luis", "Rosita"];
 
-Animal gato = new Animal("Cliff", 23, 2);
-Animal perro = new Animal("Firu", 35, 3);
-Animal vaca = new Animal("Lechera", 2.5, 4);
 
-registro.IngresoNuevaMascota(gato, 0);
-registro.IngresoNuevaMascota(perro, 1);
-registro.IngresoNuevaMascota(vaca, 2);
 
-registro.imprimirMascotas();
 
-Console.WriteLine("Ingrese el nombre de la mascota a buscar");
-registro.buscar(Console.ReadLine());
+
+
+
+
+
+
+
+
+// RegistroAnimal registro = new RegistroAnimal(10);
+
+// Animal gato = new Animal("Cliff", 23, 2);
+// Animal perro = new Animal("Firu", 35, 3);
+// Animal vaca = new Animal("Lechera", 2.5, 4);
+
+// registro.IngresoNuevaMascota(gato, 0);
+// registro.IngresoNuevaMascota(perro, 1);
+// registro.IngresoNuevaMascota(vaca, 2);
+
+// registro.imprimirMascotas();
+
+// Console.WriteLine("Ingrese el nombre de la mascota a buscar");
+// registro.buscar(Console.ReadLine());
 //registro.buscar("Fir");
 
 // int max = 10;
