@@ -20,6 +20,8 @@ foreach (string nombre in nombres)
     System.Console.WriteLine(nombre.ToUpper());
 }
 
+System.Console.WriteLine($"La lista tiene {nombres.Count} elementos");
+
 
 
 
