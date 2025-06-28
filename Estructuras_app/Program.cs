@@ -7,6 +7,11 @@ Console.WriteLine("=============================");
 //crear una colección de strings llamada nombres
 List<string> nombres = ["Ana", "Luis", "Rosita"];
 
+//Añadir elementos a la lista
+nombres.Add("Romina");
+nombres.Add("Willy");
+
+
 //imprimir una lista
 foreach (string nombre in nombres)
 {
