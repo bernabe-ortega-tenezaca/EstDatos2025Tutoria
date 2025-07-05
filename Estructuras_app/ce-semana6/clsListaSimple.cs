@@ -72,4 +72,21 @@ public class ListaSimple
             }
         return actual;
     }
+
+    public void DibujarLista()
+    {
+        clsNodo? actual = head;
+        Console.Write("head -->");
+        while (actual != null)
+        {
+            Console.Write("[" + actual.Data + " |*]");
+            if (actual.Siguiente != null)
+            {
+                Console.Write("-->");
+            }
+            actual = actual.Siguiente;
+        }
+        Console.WriteLine("--> null");
+        System.Console.WriteLine();
+    }
 }
