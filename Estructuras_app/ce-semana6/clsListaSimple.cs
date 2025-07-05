@@ -32,7 +32,33 @@ public class ListaSimple
             }
             actual.Siguiente = nuevoNodo;
         }
-
     }
 
+    public void EliminarInicio()
+    {
+        if (head != null)
+        {
+            head = head.Siguiente;
+        }
+    }
+
+    public void EliminarFinal()
+    {
+        if (head != null)
+        {
+            if (head.Siguiente == null)
+            {
+                head = null;
+            }
+            else
+            {
+                clsNodo actual = head;
+                while (actual.Siguiente != null)
+                {
+                    actual = actual.Siguiente;
+                }
+                actual.Siguiente = null;
+            }
+        }
+    }
 }
