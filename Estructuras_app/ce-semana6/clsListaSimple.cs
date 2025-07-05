@@ -61,4 +61,15 @@ public class ListaSimple
             }
         }
     }
+
+    public clsNodo? buscar(string dato)
+    {
+        clsNodo? actual = head;
+        if (head != null)
+            while (actual != null && actual.Data != dato)
+            {
+                actual = actual.Siguiente;
+            }
+        return actual;
+    }
 }
