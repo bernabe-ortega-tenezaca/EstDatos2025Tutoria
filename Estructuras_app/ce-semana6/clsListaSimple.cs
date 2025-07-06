@@ -73,7 +73,7 @@ public class ListaSimple
         return actual;
     }
 
-    public void DibujarLista()
+    public void ImprimirLista()
     {
         clsNodo? actual = head;
         Console.Write("head -->");
