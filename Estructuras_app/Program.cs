@@ -10,7 +10,7 @@ Stack<string> estudiantes = new Stack<string>();
 
 estudiantes.Push("Ana");
 estudiantes.Push("Carlos");
-System.Console.WriteLine("Ingrese un nombre");
+Console.WriteLine("Ingrese un nombre");
 estudiantes.Push(Console.ReadLine());
 estudiantes.Push("Juan");
 

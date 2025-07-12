@@ -31,10 +31,11 @@ public class Pilas
 
 
         //recorrer los elementos de la pila
-        foreach (int item in numeros)
-        {
-            System.Console.WriteLine(item);
-        }
+        // foreach (int item in numeros)
+        // {
+        //     System.Console.WriteLine(item);
+        // }
+        ImprimirPila(numeros);
 
         System.Console.WriteLine("elemento eliminado: " + eliminado);
 
@@ -42,7 +43,16 @@ public class Pilas
 
     public static void ImprimirPila(Stack<string> pila)
     {
-        System.Console.WriteLine("Los elementos de la pila son: ");
+        Console.WriteLine("Los elementos de la pila son: ");
+        foreach (var item in pila)
+        {
+            System.Console.WriteLine(item);
+        }
+    }
+
+    public static void ImprimirPila(Stack<int> pila)
+    {
+        Console.WriteLine("Los elementos de la pila son: ");
         foreach (var item in pila)
         {
             System.Console.WriteLine(item);
