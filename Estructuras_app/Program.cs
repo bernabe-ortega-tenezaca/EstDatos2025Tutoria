@@ -25,3 +25,17 @@ int ultimo = numeros.Peek();
 Console.WriteLine("el último elemento es: " + ultimo);
 Console.WriteLine("último elemento {0} y el doble de último es {1}", ultimo, ultimo*2);
 Console.WriteLine($"último elemento es: {ultimo}");
+
+//Eliminar elementos
+numeros.Pop();
+int eliminado = numeros.Pop();
+System.Console.WriteLine();
+
+
+//recorrer los elementos de la pila
+foreach (int item in numeros)
+{
+    System.Console.WriteLine(item);
+}
+
+System.Console.WriteLine("elemento eliminado: " + eliminado);
