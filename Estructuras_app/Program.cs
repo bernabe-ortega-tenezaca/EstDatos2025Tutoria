@@ -6,3 +6,8 @@ Console.WriteLine();
 //ceVectores.ejecutar();
 //Pilas.run();
 Colas.run();
+
+
+Queue<string> nombres = new Queue<string>();
+nombres.Enqueue("Ana");
+Colas.imprimirCola(nombres);

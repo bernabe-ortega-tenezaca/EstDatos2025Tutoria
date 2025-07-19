@@ -17,9 +17,17 @@ public class Colas
         int porVender = autos.Count();
         Console.WriteLine("tenemos " + porVender + " por vender");
 
+        cantidadElementos(autos);
+
         imprimirCola(autos);
     }
 
+    public static void cantidadElementos(Queue<string> cola)
+    {
+        System.Console.WriteLine();
+        Console.WriteLine("Existen " + cola.Count() + " elementos en cola");
+
+    }
     public static void imprimirCola(Queue<string> cola)
     {
         System.Console.WriteLine();
