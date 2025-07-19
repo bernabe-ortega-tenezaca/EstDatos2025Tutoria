@@ -5,3 +5,4 @@ Console.WriteLine();
 //ceListas.run();
 //ceVectores.ejecutar();
 //Pilas.run();
+Colas.run();
