@@ -9,8 +9,13 @@ public class Colas
         autos.Enqueue("Opel");
         autos.Enqueue("BMW");
 
+
         //autos.Dequeue();
-        autos.Dequeue();
+        string autoAtendido = autos.Dequeue(); //Extrae el primer elemento de la cola
+
+        Console.WriteLine("Vendido: " + autoAtendido );
+        int porVender = autos.Count();
+        Console.WriteLine("tenemos " + porVender + " por vender");
 
         imprimirCola(autos);
     }
