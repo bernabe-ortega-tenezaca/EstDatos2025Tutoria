@@ -12,4 +12,5 @@ Console.WriteLine();
 // nombres.Enqueue("Ana");
 // Colas.imprimirCola(nombres);
 
-vacunas.run();
+//vacunas.run();
+Diccionarios.run();
