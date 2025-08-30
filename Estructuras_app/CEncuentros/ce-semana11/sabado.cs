@@ -21,6 +21,8 @@ public class ClaveValor
         System.Console.WriteLine("Ingres el nombre: ");
         string nombre = Console.ReadLine();
 
+        estudiantes[1] = "Anita";
+        System.Console.WriteLine(estudiantes[1]);    
         // if (estudiantes.ContainsKey(codigo))
         // {
         //     System.Console.WriteLine("El código ya existe");
