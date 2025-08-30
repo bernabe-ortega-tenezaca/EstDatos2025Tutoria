@@ -22,7 +22,7 @@ public class ClaveValor
         string nombre = Console.ReadLine();
 
         estudiantes[1] = "Anita";
-        System.Console.WriteLine(estudiantes[1]);    
+        System.Console.WriteLine(estudiantes[1]);
         // if (estudiantes.ContainsKey(codigo))
         // {
         //     System.Console.WriteLine("El código ya existe");
@@ -42,8 +42,20 @@ public class ClaveValor
             System.Console.WriteLine("Ha ocurrido un error. El código ingresado ya existe");
         }
 
+        var claves = estudiantes.Keys;
+        var valores = estudiantes.Values;
+
+        System.Console.WriteLine("Lista de claves");
+        foreach (var item in claves)
+        {
+            System.Console.WriteLine(item);
+        }
         
-        
+        System.Console.WriteLine("Lista de valores");
+        foreach (var item in valores)
+        {
+            System.Console.WriteLine(item);
+        }
 
     }
 }
