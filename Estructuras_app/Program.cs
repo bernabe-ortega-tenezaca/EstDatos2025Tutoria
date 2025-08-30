@@ -13,4 +13,5 @@ Console.WriteLine();
 // Colas.imprimirCola(nombres);
 
 //vacunas.run();
-Diccionarios.run();
+//Diccionarios.run();
+ClaveValor.run();
